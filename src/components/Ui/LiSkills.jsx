@@ -10,7 +10,7 @@ import { Askills } from "./Askills";
 export const LiSkills = () => {
   return (
     <ul className="liSkills">
-      <Askills className="liSkills" name={FaHtml5} title="Html" /> 
+      <Askills className="iconSkills" name={FaHtml5} title="Html" /> 
       <Askills name={FaCss3 } title="Css" /> 
       <Askills name={FaReact} title="React" /> 
       <Askills name={FaJava} title="Java" /> 

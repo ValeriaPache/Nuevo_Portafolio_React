@@ -1,6 +1,6 @@
 /* Estilos generales */
 #root >.containerFooter {
-    background: linear-gradient(to bottom, #cac1a1,rgb(189, 190, 229), #c4cbc0);
+  background: linear-gradient(to right, #FFDDD2, #FFAFCC);
     padding: 10px 20px;
     padding: 20px;
     text-align: center;
@@ -42,7 +42,7 @@
   
   .icon {
     font-size: 1.8rem;
-    color: palevioletred;
+    color: #EF476F;
   }
   
   /* 🟢 Diseño Responsivo */

@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, #cac1a1,rgb(189, 190, 229), #c4cbc0);
+    background: linear-gradient(to right, #FFDDD2, #FFAFCC);
     padding: 10px 20px;
     border-radius: 15px;
-    
+
   }
   
   .containerHeader > .logo {

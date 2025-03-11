@@ -1,0 +1,7 @@
+.containerHome{
+    width: 100%;
+    background-color: greenyellow;
+    height: 500px;
+    display: flex;
+    display: grid;  
+}
