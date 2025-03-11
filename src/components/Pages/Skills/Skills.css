@@ -1,7 +1,22 @@
+.containerSkills{
+    background-color: azure;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    display: grid;  
+}
+.containerSkills > .tittleSkills{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
 a {
     all: unset;
 }
 .liSkills{
-    text-decoration: none;
+    list-style-type: none;
     color: blue;
+    font-size: 30px;
 }

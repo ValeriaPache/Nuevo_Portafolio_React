@@ -6,8 +6,8 @@ import { LiSkills } from '../../Ui/LiSkills';
 
 export const Skills = () => {
   return (
-    <div>
-      <h2>Skills</h2>
+    <div className='containerSkills'>
+      <h2 className='tittleSkills'>Skills</h2>
       <LiSkills/>
       {/*
       
