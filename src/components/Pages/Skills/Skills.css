@@ -1,23 +1,75 @@
-.containerSkills{
+/* Contenedor principal */
+.containerSkills {
     width: 100%;
-    height: 500px;
+    min-height: 500px;
+    background: linear-gradient(135deg, #39a900, #aaff00);
     display: flex;
-    display: grid;  
-}
-.containerSkills > .tittleSkills{
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-size: 30px;
-    color: #4A4A4A;
+    padding: 2rem;
 }
-a {
-    all: unset;
+
+/* Título */
+.tittleSkills {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
 }
-.liSkills{
-    list-style-type: none;
+
+/* Lista de habilidades */
+.liSkills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    width: 25%;
+    justify-content: center;
 }
-.iconSkills{
-    color: #6D6875; ;
-    font-size: 25px;
+
+/* Estilos para cada icono */
+.iconSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: white;
+    transition: transform 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word; /* Evita desbordamientos de texto */
+    max-width: 100%;
+}
+
+.iconSkills:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Modo responsive */
+@media (max-width: 768px) {
+    .tittleSkills {
+        font-size: 1.5rem;
+    }
+
+    .liSkills {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .iconSkills {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+}
+
+/* Ajuste específico para el texto largo de "MySQL Workbench" */
+.iconSkills:last-child {
+    font-size: 1rem; /* Reduce el tamaño del texto si es necesario */
+    padding: 0.8rem;
 }
