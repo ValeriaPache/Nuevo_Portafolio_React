@@ -1,7 +1,47 @@
-.containerSocialSkills{
+/* Contenedor principal */
+.containerSocialSkills {
     width: 100%;
-    background-color: greenyellow;
-    height: 500px;
+    height: auto;
+    background: linear-gradient(135deg, #39a900, #aaff00);
+    padding: 2rem;
     display: flex;
-    display: grid;  
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+/* Estilo del título */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Lista de habilidades */
+.skillsList {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 600px;
+}
+
+.skillsList li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skillsList li:hover {
+    transform: scale(1.05); /*Tamaño de agrndar cada contenedor*/
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skillsList li {
+        font-size: 1rem;
+    }
 }
