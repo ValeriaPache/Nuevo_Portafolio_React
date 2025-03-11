@@ -1,0 +1,15 @@
+.containerBody{
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to bottom, #f3eacb, #d3e8c6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerBody > #root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: grid;
+}
