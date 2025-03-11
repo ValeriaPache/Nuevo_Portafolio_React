@@ -44,9 +44,17 @@
     font-size: 1.8rem;
     color: #EF476F;
   }
+  @media (max-width: 676px) {
+    .containerFooter{
+      width: 40%;
+    }
+  }
   
   /* 🟢 Diseño Responsivo */
-  @media (max-width: 768px) {
+  @media (max-width: 851px) {
+    .containerFooter{
+      width: 80%;
+    }
     .footer-links {
       display: flex;
       gap: 30px;

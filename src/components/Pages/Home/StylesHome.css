@@ -1,6 +1,6 @@
 .containerHome {
     width: 95%;
-    height: 100vh;
+    height: 82vh;
     background: linear-gradient(135deg, #39a900, #aaff00);
     display: flex;
     flex-direction: column;
@@ -16,6 +16,8 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
+    word-wrap: break-word; /* Evita desbordes de texto */
+    max-width: 90%; /* Ajusta el ancho del título en pantallas pequeñas */
 }
 
 /* Contenedor del contenido */
@@ -33,6 +35,7 @@
     max-width: 50%;
     font-size: 1.2rem;
     line-height: 1.6;
+    word-wrap: break-word;
 }
 
 /* Estilos de la imagen */
@@ -48,23 +51,54 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsive */
+/* 📱 Responsividad */
 @media (max-width: 768px) {
+    .containerHome {
+        width: 95%;
+        height: 70vh;
+    }
     .content {
         flex-direction: column;
         text-align: center;
+        gap: 1rem; /* Reduce el espacio entre elementos */
     }
 
     .textContainer {
-        max-width: 100%;
+        max-width: 90%; /* Ocupa más espacio en pantallas pequeñas */
+        font-size: 1rem; /* Reduce tamaño de texto para mejor ajuste */
     }
 
     .imageContainer {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .profileImage {
         width: 150px;
         height: 150px;
+    }
+
+    .title {
+        font-size: 2rem; /* Reduce el tamaño del título en móviles */
+    }
+}
+
+/* Ajustes específicos para pantallas pequeñas (teléfonos) */
+@media (max-width: 480px) {
+    .containerHome {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .textContainer {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .profileImage {
+        width: 130px;
+        height: 130px;
     }
 }
