@@ -5,8 +5,6 @@
     align-items: center;
     background: linear-gradient(to right, #FFDDD2, #FFAFCC);
     padding: 10px 20px;
-    border-radius: 15px;
-
   }
   
   .containerHeader > .logo {
@@ -53,6 +51,17 @@
   }
   
   /* Responsive para móviles */
+
+  @media (max-width: 455px) {
+    #root  >.containerHeader {
+      width: 94%;
+    }
+  }
+  @media (max-width: 511px) {
+    #root  >.containerHeader {
+      width: 94%;
+    }
+  }
   @media (max-width: 768px) {
     .menu-toggle {
       display: block; /* Se muestra en pantallas pequeñas */
@@ -73,6 +82,46 @@
   
     .nav-links.open {
       display: flex; /* Muestra el menú cuando el botón es presionado */
+    }
+  }
+  @media (max-width: 786px) {
+    #root  >.containerHeader {
+      width: 92%;
+    }
+  }
+  @media (max-width: 910px) {
+    #root  >.containerHeader {
+      width: 92%;
+    }
+  }
+  @media (max-width: 938px) {
+    #root  >.containerHeader {
+      width: 93%;
+    }
+  }
+  @media (max-width: 1002px) {
+    #root  >.containerHeader {
+      width: 93%;
+    }
+  }
+  @media (max-width: 1166px) {
+    #root  >.containerHeader {
+      width: 93%;
+    }
+  }
+  @media (max-width: 1284px) {
+    #root  >.containerHeader {
+      width: 93%;
+    }
+  }
+  @media (max-width: 1876px) {
+    #root  >.containerHeader {
+      width: 94%;
+    }
+  }
+  @media (max-width: 2150px) {
+    #root  >.containerHeader {
+      width: 98.11%;
     }
   }
   

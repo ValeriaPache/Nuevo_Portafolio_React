@@ -7,6 +7,9 @@ export const Home = () => {
     <div className='containerHome'>
       <h2 className="title">Inicio</h2>
       <div className="content">
+      <div className="imageContainer">
+          <img src={logo} alt="Valeria Pacheco" className="profileImage" />
+        </div>
         <div className="textContainer">
           <p>
             Hola, soy <strong>Valeria Pacheco</strong>, una desarrolladora frontend apasionada por 
@@ -16,9 +19,7 @@ export const Home = () => {
             habilidades y aprender cosas nuevas en el mundo del desarrollo.
           </p>
         </div>
-        <div className="imageContainer">
-          <img src={logo} alt="Valeria Pacheco" className="profileImage" />
-        </div>
+        
       </div>
     </div>
   );

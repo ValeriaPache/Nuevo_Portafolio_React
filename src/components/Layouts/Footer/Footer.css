@@ -44,9 +44,21 @@
     font-size: 1.8rem;
     color: #EF476F;
   }
+  @media (max-width: 455px) {
+    #root >.containerFooter{
+      width: 100%;
+      background-color: #FFAFCC;
+    }
+  }
   @media (max-width: 676px) {
     .containerFooter{
       width: 40%;
+    }
+  }
+
+  @media (max-width: 2150px) {
+    #root .containerFooter{
+      width: 98.11%;
     }
   }
   
