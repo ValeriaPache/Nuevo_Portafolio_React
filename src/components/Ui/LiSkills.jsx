@@ -12,13 +12,13 @@ export const LiSkills = () => {
   return (
     <ul className="liSkills">
       <Askills className="iconSkills" name={FaHtml5} title="Html" /> 
-      <Askills name={FaCss3 } title="Css" /> 
-      <Askills name={FaReact} title="React" /> 
-      <Askills name={FaJava} title="Java" /> 
-      <Askills name={IoLogoJavascript} title="JavaScript" /> 
-      <Askills name={SiMongodb} title="MongoDB" /> 
-      <Askills name={GrMysql} title="MySqlWorbench" /> 
-      <Askills name={FaGithub} title="GitHub" /> 
+      <Askills className="iconSkills" name={FaCss3 } title="Css" /> 
+      <Askills className="iconSkills" name={FaReact} title="React" /> 
+      <Askills className="iconSkills" name={FaJava} title="Java" /> 
+      <Askills className="iconSkills" name={IoLogoJavascript} title="JavaScript" /> 
+      <Askills className="iconSkills" name={SiMongodb} title="MongoDB" /> 
+      <Askills className="iconSkills" name={GrMysql} title="MySqlWorbench" /> 
+      <Askills className="iconSkills" name={FaGithub} title="GitHub" /> 
     </ul>
     
     

@@ -5,6 +5,7 @@
     background: linear-gradient(135deg, #39a900, #aaff00);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 2rem;
 }
@@ -53,6 +54,26 @@
 }
 
 /* Modo responsive */
+@media (max-width: 612px){
+    .containerSkills{
+        width: 94.3%;
+        height: 970px;
+    }
+    .liSkills{
+        width: 30%;
+        height: 900px;
+    }
+}
+@media (max-width: 760px){
+    .containerSkills{
+        width: 94.3%;
+        height: 907px;
+    }
+    .liSkills{
+        width: 30%;
+        height: 900px;
+    }
+}
 @media (max-width: 768px) {
     .tittleSkills {
         font-size: 1.5rem;
@@ -67,7 +88,86 @@
         padding: 0.8rem;
     }
 }
-
+@media (max-width: 832px){
+    .containerSkills{
+        width: 95%;
+        height: 907px;
+    }
+    .liSkills{
+        width: 30%;
+        height: 900px;
+    }
+}
+@media (max-width: 920px){
+    .containerSkills{
+        width: 95%;
+        height: 907px;
+    }
+    .liSkills{
+        width: 40%;
+        height: 600px;
+    }
+}
+@media (max-width: 1028px){
+    .containerSkills{
+        width: 96%;
+        height: 900px;
+    }
+    .liSkills{
+        width: 30%;
+        height: 500px;
+    }
+}
+@media (max-width: 1168px){
+    .containerSkills{
+        width: 96%;
+        height: 900px;
+    }
+    .liSkills{
+        width: 30%;
+        height: 500px;
+    }
+}
+@media (max-width: 1312px){
+    .containerSkills{
+        width: 96%;
+        height: 890px;
+    }
+    .liSkills{
+        width: 30%;
+        height: 500px;
+    }
+}
+@media (max-width: 1464px){
+    .containerSkills{
+        width: 97%;
+        height: 890px;
+    }
+    .liSkills{
+        width: 65%;
+        height: 300px;
+    }
+}
+@media (max-width: 1816px){
+    .containerSkills{
+        width: 97%;
+        height: 890px;
+    }
+    .liSkills{
+        width: 65%;
+        height: 300px;
+    }
+}
+@media (max-width: 2150px){
+    .containerSkills{
+        width: 97%;
+        height: 890px;
+    }
+    .liSkills{
+        width: 65%;
+        height: 300px;
+    }
+}
 /* Ajuste específico para el texto largo de "MySQL Workbench" */
 .iconSkills:last-child {
     font-size: 1rem; /* Reduce el tamaño del texto si es necesario */
