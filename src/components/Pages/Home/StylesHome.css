@@ -34,8 +34,8 @@
 /* Estilos del texto */
 .textContainer {
     max-width: 50%;
-    font-size: 1.3rem !important;
-    line-height: 1.6;
+    font-size: 1.6rem !important;
+    line-height: 1.7;
     word-wrap: break-word;
     color: #222831;
 }

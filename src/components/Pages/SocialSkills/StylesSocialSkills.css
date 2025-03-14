@@ -23,7 +23,7 @@
 .skillsList {
     list-style: none;
     padding: 0;
-    width: 90%;
+    width: 95%;
     max-width: 600px;
 }
 
@@ -32,7 +32,7 @@
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     transition: transform 0.2s ease-in-out;
 }
 
