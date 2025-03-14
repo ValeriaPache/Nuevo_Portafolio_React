@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .studiesList li {
-    background: rgba(255, 255, 255, 0.2);
+    background: #005F73;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -41,8 +42,21 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .studiesList li {
-        font-size: 1rem;
+@media (max-width: 998px) {
+    .containerStudies {
+        width: 90%;
+        height: 800px !important;
+    }
+}
+@media (max-width: 1294px) {
+    .containerStudies {
+        width: 96% !important;
+        height: 780px;
+    }
+}
+@media (max-width: 2150px) {
+    .containerStudies {
+        width: 97%;
+        height: 780px;
     }
 }

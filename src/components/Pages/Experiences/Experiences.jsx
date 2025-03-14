@@ -1,6 +1,7 @@
 import React from 'react';
 import './StylesExperience.css';
 import logo from "../../../assets/smart-protect-3.jpg";
+import logo1 from "../../../assets/maquillaje.png"
 
 export const Experiences = () => {
   return (
@@ -17,7 +18,7 @@ export const Experiences = () => {
         </div>
 
         <div className="projectCard">
-          <img src={logo} alt="Make Up Vale" className="projectImage" />
+          <img src={logo1} alt="Make Up Vale" className="projectImage" />
           <h4>Make Up Vale</h4>
           <p>Proyecto del SENA sobre una tienda en línea.</p>
           <a href="https://make-up-vale-nzr5wf5kr-valeriapaches-projects.vercel.app/" target="_blank" rel="noopener noreferrer">Ir a proyecto</a>

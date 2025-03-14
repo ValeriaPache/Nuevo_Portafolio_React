@@ -13,7 +13,7 @@
 /* Título */
 .tittleSkills {
     font-size: 2rem;
-    color: white;
+    color: #222831;
     text-align: center;
     font-weight: bold;
     margin-bottom: 1.5rem;
@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
+    background: #005F73;
     padding: 1rem;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -50,118 +50,26 @@
 
 .iconSkills:hover {
     transform: scale(1.1);
-    background: rgba(255, 255, 255, 0.4);
+    background:#005F73;
 }
 
-/* Modo responsive */
-@media (max-width: 612px){
-    .containerSkills{
-        width: 94.3%;
-        height: 970px;
-    }
-    .liSkills{
-        width: 30%;
-        height: 900px;
-    }
-}
-@media (max-width: 760px){
-    .containerSkills{
-        width: 94.3%;
-        height: 907px;
-    }
-    .liSkills{
-        width: 30%;
-        height: 900px;
-    }
-}
-@media (max-width: 768px) {
-    .tittleSkills {
-        font-size: 1.5rem;
-    }
-
-    .liSkills {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-
-    .iconSkills {
-        font-size: 1.2rem;
-        padding: 0.8rem;
-    }
-}
-@media (max-width: 832px){
-    .containerSkills{
+/* Responsive */
+@media (max-width: 998px) {
+    .containerSkills {
         width: 95%;
-        height: 907px;
-    }
-    .liSkills{
-        width: 30%;
-        height: 900px;
+        height: 800px !important;
     }
 }
-@media (max-width: 920px){
-    .containerSkills{
-        width: 95%;
-        height: 907px;
-    }
-    .liSkills{
-        width: 40%;
-        height: 600px;
-    }
-}
-@media (max-width: 1028px){
-    .containerSkills{
-        width: 96%;
-        height: 900px;
-    }
-    .liSkills{
-        width: 30%;
-        height: 500px;
-    }
-}
-@media (max-width: 1168px){
-    .containerSkills{
-        width: 96%;
-        height: 900px;
-    }
-    .liSkills{
-        width: 30%;
-        height: 500px;
-    }
-}
-@media (max-width: 1312px){
-    .containerSkills{
-        width: 96%;
-        height: 890px;
-    }
-    .liSkills{
-        width: 30%;
-        height: 500px;
-    }
-}
-@media (max-width: 1464px){
-    .containerSkills{
-        width: 97%;
-        height: 890px;
-    }
-    .liSkills{
-        width: 65%;
-        height: 300px;
-    }
-}
-@media (max-width: 1816px){
-    .containerSkills{
-        width: 97%;
-        height: 890px;
-    }
-    .liSkills{
-        width: 65%;
-        height: 300px;
+@media (max-width: 1294px) {
+    .containerSkills {
+        width: 96.3% !important;
+        height: 790px;
     }
 }
 @media (max-width: 2150px){
     .containerSkills{
         width: 97%;
-        height: 890px;
+        height: 780px;
     }
     .liSkills{
         width: 65%;

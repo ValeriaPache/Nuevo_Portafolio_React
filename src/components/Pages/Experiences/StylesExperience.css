@@ -2,6 +2,10 @@
     text-align: center;
     padding: 2rem;
     background: linear-gradient(#DDEAF2, #A3C9E3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .projectsContainer {
@@ -10,10 +14,11 @@
     justify-content: center;
     gap: 1.5rem;
     margin-top: 1rem;
+    align-items: center;
 }
 
 .projectCard {
-    background-color: #39a900;
+    background-color: #005F73;
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
@@ -49,7 +54,7 @@
     display: block;
     margin-top: 0.5rem;
     background-color: white;
-    color: #39a900;
+    color: 005F73;
     padding: 0.5rem;
     text-decoration: none;
     border-radius: 5px;
@@ -57,38 +62,27 @@
 }
 
 .projectCard a:hover {
-    background-color: #2d8500;
+    background-color: #005F73;
     color: white;
 }
 
 /* 📱 Responsividad */
-@media screen and (max-width: 600px) {
-    .projectsContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .projectCard {
-        width: 90%;  /* Tarjetas más grandes en móviles */
-        padding: 0.8rem;
-    }
-    .projectImage {
-        width: 60px;
-        height: 60px;
-    }
-    .projectCard h4 {
-        font-size: 1rem;
+/* Responsive */
+@media (max-width: 998px) {
+    .containerExperiences {
+        width: 90%;
+        height: 790px !important;
     }
 }
-
-/* Ajustes específicos para dispositivos más grandes */
-@media screen and (min-width: 601px) and (max-width: 900px) {
-    .projectCard {
-        width: 45%;  /* Mantiene dos columnas en tablets */
+@media (max-width: 1294px) {
+    .containerExperiences {
+        width: 95%;
+        height: 790px !important;
     }
 }
-
-@media screen and (min-width: 901px) {
-    .projectCard {
-        width: 250px; /* Tamaño original para pantallas grandes */
+@media (max-width: 2150px) {
+    .containerExperiences {
+        width: 97% !important;
+        height: 770px;
     }
 }
