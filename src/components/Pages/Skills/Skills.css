@@ -2,7 +2,7 @@
 .containerSkills {
     width: 100%;
     min-height: 500px;
-    background: linear-gradient(135deg, #39a900, #aaff00);
+    background: linear-gradient(#DDEAF2, #A3C9E3);
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -2,7 +2,7 @@
 .containerStudies {
     width: 100%;
     height: auto;
-    background: linear-gradient(135deg, #39a900, #aaff00);
+    background: linear-gradient(#DDEAF2, #A3C9E3);
     padding: 2rem;
     display: flex;
     flex-direction: column;

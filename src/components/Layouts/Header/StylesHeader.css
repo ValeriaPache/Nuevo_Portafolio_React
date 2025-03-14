@@ -3,13 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #FFDDD2, #FFAFCC);
+    background: #7FB3D5;
     padding: 10px 20px;
+    height: 100px;
   }
   
   .containerHeader > .logo {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
   }
 
   .logo img {
@@ -34,6 +35,7 @@
     font-weight: bold;
     padding: 10px;
     transition: 0.3s;
+    font-size: 24px;
   }
   
   .nav-links a:hover {
@@ -44,10 +46,11 @@
   /* Botón de menú hamburguesa */
   .menu-toggle {
     display: none; /* Oculto en pantallas grandes */
-    font-size: 2rem;
+    font-size: 3rem;
     background: none;
     border: none;
     cursor: pointer;
+    color: white;
   }
   
   /* Responsive para móviles */

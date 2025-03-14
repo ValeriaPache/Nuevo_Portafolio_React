@@ -2,11 +2,12 @@
 .containerSocialSkills {
     width: 100%;
     height: auto;
-    background: linear-gradient(135deg, #39a900, #aaff00);
+    background: linear-gradient(#DDEAF2, #A3C9E3);
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -41,7 +42,45 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-    .skillsList li {
-        font-size: 1rem;
+    .containerSocialSkills{
+        width: 93%;
+        height: 900px;
+    }
+
+}
+@media (max-width: 804px) {
+    .containerSocialSkills{
+        width: 95%;
+        height: 900px;
+    }
+}
+@media (max-width: 1164px) {
+    .containerSocialSkills{
+        width: 96%;
+        height: 870px;
+    }
+}
+@media (max-width: 1320px) {
+    .containerSocialSkills{
+        width: 90%;
+        height: 700px;
+    }
+}
+@media (max-width: 1416px) {
+    .containerSocialSkills{
+        width: 96%;
+        height: 900px;
+    }
+}
+@media (max-width: 1832px) {
+    .containerSocialSkills{
+        width: 96%;
+        height: 880px;
+    }
+}
+@media (max-width: 2150px) {
+    .containerSocialSkills{
+        width: 97%;
+        height: 880px;
     }
 }

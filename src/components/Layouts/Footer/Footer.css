@@ -1,6 +1,6 @@
 /* Estilos generales */
 #root >.containerFooter {
-  background: linear-gradient(to right, #FFDDD2, #FFAFCC);
+   background: #7FB3D5;
     padding: 10px 20px;
     padding: 20px;
     text-align: center;
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 97%;
+    height: 100px;
   }
   
   .footer-links {
@@ -41,13 +41,13 @@
   }
   
   .icon {
-    font-size: 1.8rem;
-    color: #EF476F;
+    font-size: 3.5rem;
+    color: white;
   }
   @media (max-width: 455px) {
     #root >.containerFooter{
       width: 100%;
-      background-color: #FFAFCC;
+      background: #7FB3D5;
     }
   }
   @media (max-width: 676px) {
