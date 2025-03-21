@@ -13,12 +13,12 @@ export const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/tu_usuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/valeria_262006?igsh=OWx0bzNkOXVyajlz" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="icon"/>
             </a>
           </li>
           <li>
-            <a href="mailto:vpachecoSanmartin@gmail.com">
+          <a href="https://mail.google.com/mail/?view=cm&to=vpachecoSanmartin@gmail.com" target="_blank" rel="noopener noreferrer">
               <FaEnvelope className="icon"/>
             </a>
           </li>
